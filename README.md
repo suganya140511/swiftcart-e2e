@@ -18,16 +18,16 @@ A production-grade end-to-end test automation framework built with **Playwright*
 
 ## Tech stack
 
-| Concern            | Choice                                   |
-| ------------------ | ---------------------------------------- |
-| Runner             | Playwright Test                          |
-| Language           | TypeScript (strict)                      |
-| Pattern            | Page Object Model + fixtures             |
-| UI target          | SauceDemo                                |
-| API target         | Restful-Booker                           |
-| CI                 | GitHub Actions (matrix + scheduled)      |
-| Reporting          | HTML, list, JSON, JUnit                  |
-| Lint / format      | ESLint + eslint-plugin-playwright, Prettier |
+| Concern       | Choice                                      |
+| ------------- | ------------------------------------------- |
+| Runner        | Playwright Test                             |
+| Language      | TypeScript (strict)                         |
+| Pattern       | Page Object Model + fixtures                |
+| UI target     | SauceDemo                                   |
+| API target    | Restful-Booker                              |
+| CI            | GitHub Actions (matrix + scheduled)         |
+| Reporting     | HTML, list, JSON, JUnit                     |
+| Lint / format | ESLint + eslint-plugin-playwright, Prettier |
 
 ## Project structure
 
