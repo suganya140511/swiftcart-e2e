@@ -37,13 +37,13 @@ export default defineConfig({
     ['json', { outputFile: 'test-results/results.json' }],
     ['junit', { outputFile: 'test-results/junit.xml' }],
   ],
-  use: {
+ use: {
     actionTimeout: 10_000,
     navigationTimeout: 15_000,
     trace: 'on-first-retry',
-    screenshot: 'on',
-    video: 'on',
-    headless: false,
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+    headless: true,
   },
 
   projects: [
